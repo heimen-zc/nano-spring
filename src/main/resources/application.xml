@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<beans xmlns="http://ldouer.gitee.io/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://ldouer.gitee.io/schema/beans
+       http://ldouer.gitee.io/schema/beans/nano-spring-beans.xsd">
+
+    <bean id="classA" class="com.zc.learn.nanospring.ioc.ClassA">
+        <property name="classB" ref="classB"/>
+    </bean>
+    <bean id="classB" class="com.zc.learn.nanospring.ioc.ClassB"></bean>
+
+</beans>
